@@ -41,6 +41,7 @@ public class BoardForm {
         this.boardCreatedTime = boardCreatedTime;
     }
 
+    // Board 엔티티를 받아서 BoardForm 객체로 변환해주는 메서드
     public static BoardForm toBoardForm(Board board) {
 
         BoardForm boardForm = new BoardForm();
